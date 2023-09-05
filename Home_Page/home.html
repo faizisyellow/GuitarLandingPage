@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOTY SHOP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Poppins:wght@100;400&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .card {
+        transition: all 0.3s;
+      }
+      .card:hover {
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+  <body>
+    <!--navbar-->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="home.html">
+                <img src="../assets/boty2022.webp" alt="HOME" width="50" />
+              </a>
+            </div>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav fw-bold ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="../Fender/fender.html">Fender</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="../Gretch/gretsch.html">Gretsch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-secondary" aria-current="page" href="../Squier/squier.html">Squier</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!--main-->
+    <section>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner 30px">
+          <div class="carousel-item active">
+            <img src="../assets/Fender-American-Standard-Telecaster-Natural.png" class="d-block w-100" alt="picture" />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Fender</h5>
+              <p style="font-family: 'Poppins', sans-serif">Fender Limited Edition Player Telecaster Electric Guitar</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/Gibson-Les-Paul-Standard-T-2017-Heritage-Cherry-Sunburst.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>gretsch</h5>
+              <p>gretsch Electromatic Hollow Cadillac</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/pngwing.com.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>squier</h5>
+              <p>Squier FSR Affinity Series HSS</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--carousel-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="../assets/telecester3.avif" class="card-img-top" alt="pics" />
+              <div class="card-body">
+                <h5 class="fw-bold">Fender</h5>
+                <p class="text-success">$1,229.00</p>
+                <p>Fender Limited Edition Player Telecaster Electric Guitar</p>
+                <a class="btn btn-outline-secondary" href="../Fender/fender1main.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="../assets/gretsch5.avif" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-bold">Gretsch</h5>
+                <p class="text-success">$1,399.00</p>
+                <p>Gretsch FSR G5422TG Electromatic Hollow Cadillac Green Metallic</p>
+                <a class="btn btn-outline-secondary" href="../Gretch/gretch2main.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="../assets/starcaster4.avif" class="card-img-top" alt="..." />
+
+              <div class="card-body">
+                <h5 class="fw-bold">Squier</h5>
+                <p class="text-success">$429.00</p>
+                <p>Squier FSR Affinity Series HSS, Laurel FB, Ice Blue Metallic</p>
+                <a class="btn btn-outline-secondary" href="../Squier/squier1main.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="../assets/telecester2.avif" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-bold">Fender</h5>
+                <p class="text-success">$3,399.00</p>
+                <p>Fender American Vintage II 72 Telecaster Thinline Electric Guitar, Maple FB, Aged Natural</p>
+                <a class="btn btn-outline-secondary" href="../Fender/fender2main.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="../assets/gretsch2.avif" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-bold">gretsch</h5>
+                <p class="text-success">$1,399.00</p>
+                <p>Gretsch FSR G5420TG Electromatic Hollowbody Singlecut Electric Guitar w/Bigsby, 2-Tone Sea Foam Green</p>
+                <a class="btn btn-outline-secondary" href="../Gretch/gretch2main.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <img src="../assets/starcaster6.avif" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="fw-bold">Squier</h5>
+                <p class="text-success">$1,500.00</p>
+                <p>Squier Affinity Series Telecaster Deluxe Electric Guitar, Laurel FB, Burgundy Mist american standard</p>
+                <a class="btn btn-outline-secondary" href="../Squier/squier2main.html" role="button">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Card-->
+    <section>
+      <div class="container-fluid mt-3 py-3">
+        <div class="row text-center fw-bold fs-3">
+          <div class="col">
+            <p class="text-dark" style="font-size: small">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                <path
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"
+                />
+              </svg>
+              2023 Faissal
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
